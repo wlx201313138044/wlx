@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>button</title>
+    <meta charset="utf-8" lang="gb23123">
+    <style type="text/css">
+        .btn{
+            width: 100px;
+            height: 30px;
+            color: #FFF;
+            font-size: 1.2em;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            top:50%;
+            left: 50%;
+            margin-top: -15px;
+            margin-left: -50px;
+            position: absolute;
+        }
+        .btn::after{
+            width: 20px;
+            height: 20px;
+            content: "";        
+            right: -10px;
+            top: 5px;
+            position: absolute;
+            display: block; 
+            background: #FFF;
+            border-radius: 20px;
+        }
+        .demo {
+width: 0;
+height: 0;
+border-width: 20px;
+border-style: solid;
+border-color: transparent transparent red transparent;
+}
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="demo">
+            
+        </div>
+        <div class="demo">
+        </div>
+    </div>
+    <script>
+        window.onload = function(){
+            
+           
+        }
+  
+        [1,5,2,3,43,12].sort(function(){
+            console.log(arguments)
+            return 1
+        })
+    </script>
+</body>
+</html>
